@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Connection Guardian</title>
+  <style>
+    body { font-family: sans-serif; padding: 10px; }
+    input { width: 80%; margin-bottom: 10px; }
+    button { margin-right: 5px; }
+  </style>
+</head>
+<body>
+  <h3>Quản lý kết nối</h3>
+  <input type="text" id="domainInput" placeholder="Thêm tên miền...">
+  <br>
+  <button id="allowBtn">Cho phép</button>
+  <button id="blockBtn">Chặn</button>
+  <button id="blockAllBtn">Chặn tất cả trừ danh sách cho phép</button>
+  <div id="log"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
